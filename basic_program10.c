@@ -1,8 +1,10 @@
 #include<stdio.h>
-int main(){
-int d= 5;
-printf("%d\n%d\n%d\n",d++,d,++d);
-
-    return 0;
-
+#include<string.h>
+void main(){
+int i =0;
+char ch ='a';
+while (ch<127&&i==1)
+{
+  printf("%d ",ch);
+}
 }
